@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+       
+    }
+
+        /*==========HEADER=========*/
+    .logotype {
+        margin-right: 120px;
+    }
+    .mobile-menu-open-btn {
+        display: none;
+    }
+    .contact-link {
+
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
+
+    .contact-item:not(:last-of-type) {
+         margin-bottom: 4px;
+         }
+
+}
