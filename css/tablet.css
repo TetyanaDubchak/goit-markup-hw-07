@@ -1,3 +1,5 @@
+/*=================SCREEN WIDTH 768px+ ===================*/
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -8,9 +10,19 @@
     .logotype {
         margin-right: 120px;
     }
+
+    .menu-list {
+        display: flex;
+        }
+
     .mobile-menu-open-btn {
         display: none;
     }
+
+    .contact {
+        display: inline-block;
+    }
+
     .contact-link {
 
         font-size: 12px;
@@ -21,5 +33,173 @@
     .contact-item:not(:last-of-type) {
          margin-bottom: 4px;
          }
+
+        /*==========HERO=========*/
+    .hero {
+        padding-bottom: 108px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-tablet.jpg');
+        max-width: 768px;
+         }
+        
+    .hero-title {
+        margin: 0 auto 40px auto;
+        max-width: 496px;
+        
+        font-size: 56px;
+        line-height: 1.07;
+        }
+        
+    .hero-button {
+        min-width: 169px;
+        }
+    
+    /*==================ABOUT========*/
+    .information-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        }
+
+    .information-item {
+        flex-basis: calc((100% - 24px) / 2);
+}
+
+    .information-item:not(:last-of-type) {
+        margin-bottom: 0px;
+ }
+
+    .information-text {
+        text-align: left;
+  }
+
+  /*==================TEAM========*/
+    .team {
+        padding-bottom: 104px;
+
+  }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+  }
+
+    .team-item {
+       margin-left: 0;
+       margin-right: 0;
+    }
+
+    .team-item:not(:last-of-type) {
+        margin-bottom: 0px;
+   }
+
+/*==================CUSTOMERS========*/
+    .customers {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+
+   .customers-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+   }
+
+   .customers-item {
+        flex-basis: calc((100% - 48px) / 3);
+   }
+
+
+ /*==================FOOTER========*/
+
+    .footer-container {
+    padding-left: 108px;
+    padding-right: 108px;
+    }
+
+   .footer-extra-wrap {
+       display: flex;
+       gap: 24px;
+      margin-bottom: 72px;
+   }
+
+    .logo-bottom {
+        text-align: left;
+    }
+
+    .footer-description {
+        margin-bottom: 0px;
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+
+    .footer-social-media {
+        margin-bottom: 0px;
+    }
+
+    .footer-input-btn-wrap {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-field-description {
+        text-align: left;
+    }
+    .footer-input {
+        max-width: 264px;
+        margin-bottom: 0;
+         }
+
+    .footer-mail-btn {
+        margin-left: 0;
+        margin-right: 0;
+        }
+
+ /*=============PORTFOLIO PAGE=========*/
+    .portfolio-section {
+        padding-top: 64px;
+        padding-bottom: 96px;
+        }
+
+    .portfolio-select-btn {
+        padding: 12px 24px;
+        }
+
+    .portfolio-select-list {
+        justify-content: center;
+        margin-bottom: 64px;
+        }
+
+    .portfolio-work-list {
+        column-gap: 24px;
+        row-gap: 72px;
+        }
+
+    .portfolio-work-item {
+         flex-basis: calc((100% - 24px) / 2);
+        }
+}
+
+/*==================HERO BG IMAGE2x========*/
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-tablet@2x.jpg');
+    }
+}
+
+/*=================SCREEN WIDTH 0-767px ===================*/
+@media screen and (max-width: 1199px) {
+    .portfolio-text-overlay {
+        display: none;
+
+    }
 
 }

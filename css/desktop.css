@@ -1,9 +1,11 @@
+/*=================SCREEN WIDTH 1200px+ ===================*/
+
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1160px;
     }
 
-        /*==========HEADER=========*/
+    /*==========HEADER=========*/
     .logotype {
         margin-right: 76px;
     }
@@ -23,5 +25,153 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+
+    /*==========HERO=========*/
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-desktop.jpg');
+        max-width: 1440px;
+        }
+        
+    .hero-title {
+        margin: 0 auto 48px auto;
+        max-width: 496px;
+        }
+        
+    .hero-button {
+        min-width: 169px;
+        }
+
+    /*==================ABOUT========*/
+    .information {
+        padding-top: 120px;
+        padding-bottom: 120px;
+         }
+
+    .information-item {
+        flex-basis: calc((100% - 72px) / 4);
+        }
+    
+    .information-icon-container {
+        display: flex;
+        height: 112px;
+         width: 264px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: var(--color-logo);
+         margin-bottom: 8px;
+        }
+    .information-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: left;
+        }
+
+/*==================JOB========*/
+    .job-example {
+        display: block;
+        padding-bottom: 120px;
+        }
+    .job-example {
+        padding-top: 0;
+        }
+
+    .job-example-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        }
+
+    .job-example-item {
+        width: 360px;
+        flex-basis: calc((100% - 48px) / 3);
+        }
+
+    .job-example-title {
+        margin-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--color-next-title);
+        text-transform: capitalize;
+        }
+
+  /*==================TEAM========*/
+    .team {
+        padding-bottom: 120px;
+        padding-bottom: 120px;
+        }
+    .team-item {
+        flex-basis: calc((100% - 72px) / 4);
+        }
+
+     /*=================CUSTOMERS========*/
+    .customers {
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+
+    .customers-item {
+        flex-basis: calc((100% - 120px) / 6);
+        }
+
+    /*==================FOOTER========*/
+
+    .footer-container {
+        padding: 100px 0 100px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+
+    .footer-general-container {
+        display: flex;
+        }
+    .footer-extra-wrap {
+        margin-right: 80px;
+        margin-bottom: 0;
+        gap: 0;
+    }
+
+    .footer-description {
+        margin-right: 120px;
+    }
+
+    .footer-input {
+        min-width: 264px;
+ 
+    }
+
+ /*=============PORTFOLIO PAGE=========*/
+    .portfolio-section {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+    .portfolio-select-list {
+    
+        margin-bottom: 72px;
+    }
+    .portfolio-work-list {
+        row-gap: 48px;
+    }
+    
+    .portfolio-work-item {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+}
+
+
+/*==================HERO BG IMAGE2x========*/
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-desktop@2x.jpg');
     }
 }
