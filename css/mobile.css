@@ -1,183 +1,208 @@
+.container {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.modal {
+     width: calc(100% - 32px);
+}
+    
+.mobile-menu-phone {
+    font-size: 24px;
+}
+    
+.mobile-menu-list {
+    margin-bottom: 15px;
+}
+
+
+ /*==========HEADER=========*/
+.menu-list {
+   display: none;
+}
+        
+.contact {
+    display: none;
+}
+        
+.mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+/*==========HERO=========*/
+ .hero {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    
+    max-width: 428px;
+    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(46, 47, 66, 0.7);
+}
+    
+.hero-title {
+    margin: 0 auto 72px auto;
+    max-width: 319px;
+    
+    font-size: 36px;
+    line-height: 1.11;
+}
+    
+.hero-button {
+    min-width: 105px;
+}
+
+ /*==================ABOUT========*/
+ .information {
+     padding-top: 96px;
+     padding-bottom: 96px;
+ }
+
+ .information-icon-container {
+     display: none;
+ }
+
+ .information-item:not(:last-of-type) {
+     margin-bottom: 72px;
+ }
+
+ .information-title {
+     font-weight: 700;
+
+     font-size: 36px;
+     line-height: 1.1;
+     letter-spacing: 0.02em;
+     text-align: center;
+ }
+
+ .information-text {
+     text-align: justify;
+ }
+
+ /*==================JOB========*/
+ .job-example {
+     display: none;
+ }
+
+/*==================TEAM========*/
+.team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+
+.team-item {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 264px;
+}
+
+.team-item:not(:last-of-type) {
+    margin-bottom: 72px;
+}
+
+
+/*==================CUSTOMERS========*/
+.customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
+}
+
+.customers-item {
+    min-height: 88px;
+    flex-basis: calc((100% - 16px) / 2);
+}
+
+/*==================FOOTER========*/
+.footer-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.footer-extra-wrap {
+    margin-bottom: 72px;
+}
+
+.footer-description {
+    margin-bottom: 72px;
+}
+
+.logo-bottom {
+    text-align: center;
+}
+
+.footer-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 268px;
+}
+
+.footer-social-text {
+    text-align: center;
+}
+
+.footer-social-list {
+    justify-content: center;
+}
+
+.footer-field-description {
+    text-align: center;
+}
+
+.footer-input {
+    width: 100%;
+
+    margin-bottom: 16px;
+}
+
+.footer-mail-btn {
+    min-width: 165px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+  /*=============PORTFOLIO PAGE=========*/
+  .portfolio-section {
+      padding-top: 48px;
+      padding-bottom: 48px;
+  }
+
+  .portfolio-select-list {
+      margin-bottom: 48px;
+      row-gap: 16px;
+  }
+
+  .portfolio-select-btn {
+      padding: 8px 16px;
+  }
+
+  .portfolio-work-item {
+      width: 100%;
+  }
+
 /*=================SCREEN WIDTH 320px+ ===================*/
 
 @media screen and (min-width: 320px) {
-    .container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
 
-    .modal {
-        width: calc(100% - 32px);
-    }
-
-    .mobile-menu-phone {
-        font-size: 24px;
-    }
-
-    .mobile-menu-list {
-        margin-bottom: 15px;
-    }
-
-        /*==========HEADER=========*/
-    .menu-list {
-        display: none;
-     }
-        
-    .contact {
-        display: none;
-     }
-        
-    .mobile-menu-open-btn {
-        background-color: transparent;
-        border: none;
-        padding: 0;
-        line-height: 0;
-    }
-
-     /*==========HERO=========*/
-     .hero {
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 112px;
-        padding-bottom: 112px;
-
-        max-width: 428px;
-
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/hero-mobile.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: rgba(46, 47, 66, 0.7);
-        }
-
-    .hero-title {
-        margin: 0 auto 72px auto;
-        max-width: 319px;
-
-        font-size: 36px;
-        line-height: 1.11;
-    }
-
-    .hero-button {
-        min-width: 105px;
-    }
-
-    /*==================ABOUT========*/
-    .information {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .information-icon-container {
-        display: none;
-    }
-
-    .information-item:not(:last-of-type) {
-        margin-bottom: 72px;
-    }
-
-    .information-title {
-        font-weight: 700;
-    
-        font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-        text-align: center;
-        }
-    .information-text {
-        text-align: justify;
-    }
-
-    /*==================JOB========*/
-    .job-example {
-        display: none;
-    }
-
-    /*==================TEAM========*/
-    .team {
-        padding-top: 96px;
-        padding-bottom: 128px;
-    }
-
-    .team-item {
-        margin-left: auto;
-        margin-right: auto;
-        width: 264px;
-    }
-
-    .team-item:not(:last-of-type) {
-        margin-bottom: 72px;
-    }
-
-
-    /*==================CUSTOMERS========*/
-    .customers {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .customers-list {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 16px;
-        row-gap: 72px;
-    }
-
-    .customers-item {
-        min-height: 88px;
-        flex-basis: calc((100% - 16px) / 2);
-    }
-
-    /*==================FOOTER========*/
-    .footer-container {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .footer-description {
-        margin-bottom: 72px;
-    }
-
-    .logo-bottom {
-        text-align: center;
-    }
-
-    .footer-text {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 268px; 
-    }
-
-    .footer-social-text {
-        text-align: center;
-    }
-
-    .footer-social-list {
-        justify-content: center;
-    }
-
-    .footer-social-media {
-        margin-bottom: 72px;
-    }
-
-    .footer-field-description {
-        text-align: center;
-    }
-
-    .footer-input {
-        width: 100%;
-
-        margin-bottom: 16px;
-    }
-
-    .footer-mail-btn {
-        min-width: 165px;
-
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
+}
     /*=============PORTFOLIO PAGE=========*/
     .portfolio-section {
         padding-top: 48px;
@@ -195,7 +220,6 @@
         width: 100%;
     }
 
-}
 
 
 /*==================HERO BG IMAGE 2x========*/
@@ -210,10 +234,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
 
 /*=================SCREEN WIDTH 480px+ ===================*/
 @media screen and (min-width: 480px) {
-   .container {
-        max-width: 428px;
    
-    } 
     .mobile-menu-phone {
         font-size: 36px;
     }
@@ -232,18 +253,16 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
     }
 }
 
+
 /*=================MOBILE MENU===================*/
 .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    padding: 80px 40px 40px 40px;
-
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: 1000;
     top: 0;
     left: 0;
+
     
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -259,6 +278,22 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+.mobile-menu-wrap {
+    position: relative;
+    z-index: 1001;
+
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px 40px 40px;
+
+    max-width: 428px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: auto;
 }
 
 .mobile-menu-close-btn {
@@ -277,8 +312,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 }
-
-
 
 .mobile-menu-link {
     font-weight: 700;
@@ -303,8 +336,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
     margin-top: auto;
 }
 
-.mobile-menu-phone {
+.mobile-menu-contact-item:last-of-type {
+    margin-top: 40px;
+}
 
+.mobile-menu-phone {
     font-style: normal;
     font-weight: 600;
     line-height: 1.11;
@@ -315,8 +351,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
 
 .mobile-menu-mail {
     display: inline-block;
-    margin-top: 40px;
-
+ 
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

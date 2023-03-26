@@ -226,6 +226,7 @@ text-decoration: none;
     background-color: var(--color-main-title);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
+
 .team-title {
     margin-bottom: 72px;
 
@@ -260,7 +261,7 @@ text-decoration: none;
 }
 
 .team-text {
-    padding: 32px 16px;
+    padding: 32px 0 32px 0;
 }
 
 .team-social-list {
@@ -748,7 +749,7 @@ transition: opacity var(--transition-dur-func), visibility var(--transition-dur-
     content: '';
 
     margin-right: 8px;
-
+    flex-shrink: 0;
     width: 16px;
     height: 16px;
     border: 1.25px solid #2E2F42;

@@ -44,7 +44,7 @@
     }
         
     .hero-title {
-        margin: 0 auto 40px auto;
+        margin: 0 auto 36px auto;
         max-width: 496px;
         
         font-size: 56px;
@@ -81,17 +81,22 @@
 
     }
 
+    .team-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 584px;
+    }
+
     .team-list {
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
-        justify-content: center;
     }
 
     .team-item {
-       margin-left: 0;
-       margin-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .team-item:not(:last-of-type) {
@@ -99,9 +104,10 @@
     }
 
 /*==================CUSTOMERS========*/
-    .customers {
-        padding-left: 92px;
-        padding-right: 92px;
+ 
+
+    .customers-container {
+        max-width: 584px;
     }
 
    .customers-list {
@@ -117,15 +123,16 @@
 
  /*==================FOOTER========*/
 
-    .footer-container {
-    padding-left: 108px;
-    padding-right: 108px;
+    .footer-general-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 584px;
     }
 
    .footer-extra-wrap {
-       display: flex;
-       gap: 24px;
-      margin-bottom: 72px;
+        display: flex;
+        gap: 24px;
+        margin-bottom: 72px;
     }
 
     .logo-bottom {
@@ -142,6 +149,10 @@
 
     .footer-social-media {
         margin-bottom: 0px;
+    }
+
+    .footer-social-text {
+        text-align: left;
     }
 
     .footer-input-btn-wrap {
