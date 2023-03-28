@@ -77,6 +77,9 @@
         text-align: left;
     }
 
+    .information-text {
+        font-weight: 400;
+    }
 /*==================JOB========*/
     .job-example {
         display: block;

@@ -71,6 +71,10 @@
        margin-bottom: 0px;
     }
 
+    .information-title {
+        text-align: left;
+}
+
     .information-text {
         text-align: left;
     }
