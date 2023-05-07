@@ -1,15 +1,21 @@
-# WebStudio
+ # This site made for WebStudio
 
-## About The Project
-
-#### You can open site here: https://tetyanadubchak.github.io/goit-markup-hw-07/
+#### _You can open site here: https://tetyanadubchak.github.io/goit-markup-hw-07/_
 
 <br />
-On this site you can get information about the "WebStudio" and leave your contacts for communication
+On this site you can: 
+<ul>
+<li> order a service for yourself </li>
+<li> get information about the WebStudio and "what are they doing" </li>
+<li> get to know the team and their social networks </li>
+<li> read reviews of customes </li>
+<li> subscribe to the newsletter and always be aware of news </li>
+<li> view the studio's portfolio </li>
+</ul>
 
 ---
 
-### Site built with
+### The site is responsive and built with
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
